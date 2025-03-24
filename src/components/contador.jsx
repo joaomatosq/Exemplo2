@@ -2,7 +2,6 @@
 import {useState} from "react"
 
 import React from 'react'
-import { requestFormReset } from "react-dom"
 
 export const Contador = () => {
     const[contador, setContador] = useState(0)
